@@ -1,0 +1,55 @@
+/* Client preview fixes added after Netlify mobile testing. */
+
+/* Keep every SETS logo contained so it cannot burst out of cards/buttons. */
+img[src*="sets-logo"] {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 150px;
+  max-height: 64px;
+  object-fit: contain;
+}
+
+/* The splash and home logo cards are intentionally wider, but still controlled. */
+.splash-card img[src*="sets-logo"],
+.app-shell img[src*="sets-logo"] {
+  object-fit: contain;
+}
+
+@media (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  /* The dark dashboard menu was taking over the phone screen. Keep it compact. */
+  .dashboard-sidebar {
+    padding: 14px !important;
+    border-radius: 18px !important;
+    max-height: none !important;
+  }
+
+  .dashboard-sidebar > .min-h-0.flex-1 {
+    display: none !important;
+  }
+
+  .dashboard-sidebar [class*="text-xs"][class*="uppercase"] {
+    display: none !important;
+  }
+
+  .dashboard-sidebar .rounded-2xl,
+  .dashboard-sidebar .rounded-3xl {
+    border-radius: 14px !important;
+  }
+
+  /* Reduce excessive mobile chart height so the KPI cards appear sooner. */
+  .recharts-wrapper,
+  .recharts-surface {
+    max-width: 100% !important;
+  }
+
+  /* Avoid huge blank visual blocks on phone. */
+  .app-shell main,
+  .app-shell section {
+    max-width: 100vw !important;
+  }
+}
