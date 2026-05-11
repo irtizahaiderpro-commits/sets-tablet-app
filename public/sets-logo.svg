@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 500" role="img" aria-label="SETS logo">
   <rect width="920" height="500" fill="none"/>
   <g font-family="Arial Black, Impact, Arial, sans-serif" font-weight="900">
-    <text x="-8" y="396" font-size="430" fill="#000000" letter-spacing="-36">S</text>
-    <rect x="248" y="132" width="416" height="236" fill="#000000"/>
-    <text x="456" y="317" text-anchor="middle" font-size="210" fill="#ffffff" letter-spacing="-20">ET</text>
-    <text x="578" y="396" font-size="430" fill="#000000" letter-spacing="-36">S</text>
+    <text x="30" y="405" font-size="450" fill="#000000" letter-spacing="-44">S</text>
+    <rect x="285" y="158" width="350" height="184" fill="#000000"/>
+    <text x="460" y="306" text-anchor="middle" font-size="180" fill="#ffffff" letter-spacing="-16">ET</text>
+    <text x="552" y="405" font-size="450" fill="#000000" letter-spacing="-44">S</text>
   </g>
 </svg>
