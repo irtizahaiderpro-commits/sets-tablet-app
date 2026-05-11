@@ -23,7 +23,7 @@ img[src*="sets-logo"] {
 }
 
 .app-shell [class*="grid-rows-[1.08fr_0.92fr]"] {
-  grid-template-rows: minmax(360px, auto) minmax(280px, auto) !important;
+  grid-template-rows: minmax(360px, auto) minmax(300px, auto) !important;
 }
 
 .app-shell [class*="grid-rows-[1.08fr_0.92fr]"] > section,
@@ -40,11 +40,26 @@ img[src*="sets-logo"] {
     overflow-x: hidden;
   }
 
+  img[src*="sets-logo"] {
+    max-width: 118px !important;
+    max-height: 48px !important;
+  }
+
+  .splash-card img[src*="sets-logo"] {
+    max-width: 210px !important;
+    max-height: 120px !important;
+  }
+
   /* The dark dashboard menu was taking over the phone screen. Keep it compact. */
   .dashboard-sidebar {
-    padding: 14px !important;
+    padding: 12px !important;
     border-radius: 18px !important;
     max-height: none !important;
+  }
+
+  /* Hide bulky yard-control summary on phone. It repeats dashboard information. */
+  .dashboard-sidebar > div:first-child {
+    display: none !important;
   }
 
   .dashboard-sidebar > .min-h-0.flex-1 {
@@ -101,6 +116,11 @@ img[src*="sets-logo"] {
   .app-shell [class*="grid-rows-[1.08fr_0.92fr]"] .space-y-4 span:first-child {
     width: 14px !important;
     height: 14px !important;
+  }
+
+  /* Prevent the bottom of the status list being hidden behind the phone viewport. */
+  .app-shell [class*="grid-rows-[1.08fr_0.92fr]"] section:first-child {
+    padding-bottom: 28px !important;
   }
 
   .app-shell main,
