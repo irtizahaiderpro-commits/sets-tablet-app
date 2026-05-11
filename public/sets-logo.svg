@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 220" role="img" aria-label="SETS logo">
-  <rect width="560" height="220" fill="none"/>
-  <g transform="translate(28 24)">
-    <path d="M102 32C55 32 24 67 24 110s31 78 78 78c38 0 66-20 77-51h-56c-5 8-13 12-22 12-18 0-29-15-29-38 0-24 11-40 30-40 10 0 18 5 23 14h55C169 53 141 32 102 32Z" fill="#fff" stroke="#07111f" stroke-width="8"/>
-    <path d="M402 32c-47 0-78 35-78 78s31 78 78 78c38 0 66-20 77-51h-56c-5 8-13 12-22 12-18 0-29-15-29-38 0-24 11-40 30-40 10 0 18 5 23 14h55c-11-32-39-53-78-53Z" fill="#fff" stroke="#07111f" stroke-width="8"/>
-    <rect x="112" y="78" width="286" height="66" rx="2" fill="#07111f"/>
-    <text x="255" y="130" text-anchor="middle" font-family="Arial Black, Impact, Arial, sans-serif" font-size="70" font-weight="900" fill="#ffffff" letter-spacing="-4">SETS</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 500" role="img" aria-label="SETS logo">
+  <rect width="920" height="500" fill="none"/>
+  <g font-family="Arial Black, Impact, Arial, sans-serif" font-weight="900">
+    <text x="-8" y="396" font-size="430" fill="#000000" letter-spacing="-36">S</text>
+    <rect x="248" y="132" width="416" height="236" fill="#000000"/>
+    <text x="456" y="317" text-anchor="middle" font-size="210" fill="#ffffff" letter-spacing="-20">ET</text>
+    <text x="578" y="396" font-size="430" fill="#000000" letter-spacing="-36">S</text>
   </g>
 </svg>
